@@ -19,6 +19,16 @@ To run the docker container, type in the following.
 bash ./start-docker-container.sh
 ```
 
+Else
+
+```
+docker pull avnish327030/spark-hadoop-airflow
+```
+
+```
+docker run docker run -it -p 9870:9870 -p 8088:8088 -p 8080:8080 -p 18080:18080 -p 9000:9000 -p 8888:8888 -p 9864:9864 -p 8085:8085 -p 8793:8793 -p 8081:8081 -v notebook:/root/ipynb -v airflow:/home/airflow -v data:/data <IMAGE ID>
+```
+
 Click on below link to access portal
 
 [Name Node](http://localhost:9870/)
